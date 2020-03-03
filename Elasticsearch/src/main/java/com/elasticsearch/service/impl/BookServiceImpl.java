@@ -29,7 +29,7 @@ public class BookServiceImpl implements BookService {
 	
 	@Autowired
 	private MyResultMapper myResultMapper;
-
+ 
 	@Override
 	public Book add(Book book) {
 		return bookRepository.save(book);
